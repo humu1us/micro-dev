@@ -23,6 +23,11 @@ def info(name):
     pass
 
 
+@app.task(name="Micro.help", queue=QUEUE)
+def help(name):
+    pass
+
+
 @app.task(name="Micro.run", queue=QUEUE)
 def run(plugin_name, **kwargs):
     pass
