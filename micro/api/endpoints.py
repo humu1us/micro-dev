@@ -13,8 +13,8 @@ if not QUEUE:
 app = Celery("Micro", broker=BROKER_URL, backend="rpc://")
 
 
-@app.task(name="Micro.list", queue=QUEUE)
-def list():
+@app.task(name="Micro.plugins", queue=QUEUE)
+def plugins():
     pass
 
 
