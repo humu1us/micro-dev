@@ -1,1 +1,4 @@
 *.pyc
+dist/
+build/
+micro_dev.egg-info/

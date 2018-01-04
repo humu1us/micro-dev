@@ -11,14 +11,14 @@ with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='micro-dev',
+    name='Micro-dev',
 
-    version='0.0.1',
+    version='1.0.0',
 
     description='Library to create microservices for Micro',
     long_description=long_description,
 
-    url='',
+    url='https://github.com/humu1us/micro-dev',
 
     author='Felipe Ortiz, Pablo Ahumada',
     author_email='fortizc@gmail.com, pablo.ahumadadiaz@gmail.com',
@@ -26,11 +26,13 @@ setup(
     license='MIT',
 
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
-        'Topic :: Utilities',
+        'Topic :: Software Development',
+        'Topic :: System',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
 
     keywords='microservices celery',
