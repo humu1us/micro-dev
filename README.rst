@@ -7,6 +7,22 @@ use the Micro’s endpoints to send tasks.
 Installation
 ------------
 
+PyPi:
+
+::
+
+    $ pip install micro-dev
+
+Development version:
+
+::
+
+    $ git clone git@github.com:humu1us/micro-dev.git:
+    $ cd micro-dev
+    $ pip install .
+
+or direct from repository:
+
 ::
 
     $ pip install git+ssh://git@github.com/humu1us/micro-dev.git
