@@ -1,7 +1,7 @@
-micro-dev
+Micro-dev
 =========
 
-``micro-dev`` is the only thing needed to create plugins for Micro and
+Micro-dev is the only thing needed to create plugins for Micro and
 use the Micro’s endpoints to send tasks.
 
 Installation
