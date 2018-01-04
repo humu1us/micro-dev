@@ -11,7 +11,7 @@ with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='micro-dev',
+    name='Micro-dev',
 
     version='0.0.1',
 
