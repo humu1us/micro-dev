@@ -1,4 +1,4 @@
 *.pyc
 dist/
 build/
-micro_dev.egg-info/
+Micro_dev.egg-info/
