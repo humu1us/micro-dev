@@ -66,10 +66,12 @@ Send tasks
 
 .. code:: python
 
-    >>> from micro.api.endpoints import plugins, run
+    >>> from micro.api.endpoints import Requests
     >>>
-    >>> plugins.delay().wait()
+    >>> req = Requests(BROKER_URL, QUEUE_NAME)
+    >>>
+    >>> req.plugins.delay().wait()
     {'Example plugin': 'A very simple example plugin'}
     >>>
-    >>> run.delay("Example plugin", name="Micro").wait()
+    >>> req.run.delay("Example plugin", name="Micro").wait()
     'Hello Micro!!!'
