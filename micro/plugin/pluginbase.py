@@ -1,11 +1,11 @@
-class PluginBase:
+class PluginBase(object):
     def run(self, **kwargs):
         err = "Error, this is an abstract method " \
               "you need implement this in a derived class"
         raise NotImplementedError(err)
 
 
-class PluginDescription:
+class PluginDescription(object):
     def __init__(self,
                  name,
                  author,

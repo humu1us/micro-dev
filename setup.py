@@ -13,7 +13,7 @@ with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
 setup(
     name='Micro-dev',
 
-    version='2.0.2',
+    version='2.1.0',
 
     description='Library to create microservices for Micro',
     long_description=long_description,
@@ -31,6 +31,7 @@ setup(
         'Topic :: Software Development',
         'Topic :: System',
         'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
