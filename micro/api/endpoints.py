@@ -3,7 +3,7 @@ from celery import Celery
 app = Celery("Micro", backend="rpc://")
 
 
-class Requests:
+class Requests(object):
     def __init__(self, broker, queue):
         app.conf.update(
             broker_url=broker,
